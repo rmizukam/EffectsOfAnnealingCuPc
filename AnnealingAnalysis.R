@@ -2,6 +2,8 @@ library(annealingDataAFMRM)
 library(dplyr)
 library(devtools)
 
+catalog <- dataRAW
+
 plot(RM20220701GL02A[[8]])
 plot(RM20220701GL02A[[9]])
 plot(RM20220701GL02A[[10]])
@@ -15,3 +17,6 @@ plot(RM20220701GL02B[[15]])
 plot(RM20220701GL04B[[16]])
 plot(RM20220701GL04B[[17]])
 plot(RM20220701GL04B[[18]])
+
+AFMinfo(RM20220701GL02A[[12]])
+
