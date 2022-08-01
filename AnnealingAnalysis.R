@@ -30,3 +30,4 @@ plot(RM20220701GL04B[[17]])
 plot(RM20220701GL04B[[18]])
 
 
+devtools::install_local('annealingDataAFMRM_0.1.2.tar.gz')
